@@ -15,11 +15,14 @@
 		<input id="name" type="text" placeholder="Name" required><br>
 	<label for="email">Email </label>
 		<input id="name" type="text" placeholder="Email" required><br>
-	<label for="gender_m,gender_f">Gender </label>
-		<input id="gender_m,gender_f" type="radio" name="gender" required><br>
+	<label>Gender</label>
+		<input id="gender_m" type="radio" required name="gender">
+		<label for="gender_m">Male</label>
+		<input id="gender_f" type="radio" name="gender" required>
+		<label for="gender_f">Female</label><br>
 	<label for="cars">Car Brands </label>
-		<input id="cars" type="select" placeholder="Please choose an option" required><br>
-	<label for="age">Age </label>
+	<input id="cars" type="select" placeholder="Please choose an option" required>
+	<br><label for="age">Age </label>
 		<input id="age" type="number" placeholder="Age" required><br>
 	<label for="dob">DOB </label>
 		<input id="dob" type="date" placeholder="Email" required><br>
@@ -29,7 +32,7 @@
 		<input id="password" type="password" placeholder="Password" required><br>
 	<label for="tos">I agree to the TOS </label>
 		<input id="tos" type="checkbox"  required><br>
-	<input type="submit">
+	<button type="submit">Submit</button>
 </form>
 </body>
 
